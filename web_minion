@@ -1,6 +1,8 @@
 master: 192.168.50.2
 mine_functions:
   grains.get: []
+  network.ipaddrs: []
+  network.ip_addrs: []
 grains:
   services:
     - web
